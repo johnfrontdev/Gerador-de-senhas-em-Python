@@ -4,8 +4,9 @@ Este é um projeto em Python que tem como objetivo gerar senhas aleatórias e se
 
 
 
-## Aqui está o código com comentários explicando cada linha:
+### Aqui está o código com comentários explicando cada linha:
 ```
+
 import random  # Importa o módulo random para gerar números aleatórios.
 import string  # Importa o módulo string para obter caracteres ASCII.
 
@@ -60,5 +61,6 @@ senha_entry = tk.Entry(janela)  # Cria um widget Entry para exibir a senha gerad
 senha_entry.pack()  # Adiciona o widget Entry à janela.
 
 janela.mainloop()  # Inicia o loop principal da interface gráfica.
+
 
 ```
